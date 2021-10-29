@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B033BE7D4E11EE556A88D7DA /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB36DE38055B0F1171D069F4 /* Pods_Snapchat.framework */; };
+		ED4E8B31272B2C8D00AC6307 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4E8B30272B2C8D00AC6307 /* ChatViewController.swift */; };
 		EDBFF0B82729CCD800E423B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF0B72729CCD800E423B7 /* AppDelegate.swift */; };
 		EDBFF0BA2729CCD800E423B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF0B92729CCD800E423B7 /* SceneDelegate.swift */; };
 		EDBFF0BC2729CCD800E423B7 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBFF0BB2729CCD800E423B7 /* iniciarSesionViewController.swift */; };
@@ -21,6 +22,7 @@
 		25B237C80D2FCCE8C125500B /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
 		5494CF5C83C03A4A1202F580 /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
 		AB36DE38055B0F1171D069F4 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4E8B30272B2C8D00AC6307 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		EDBFF0B42729CCD800E423B7 /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDBFF0B72729CCD800E423B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDBFF0B92729CCD800E423B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		EDBFF0B62729CCD800E423B7 /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				EDBFF0CB2729D22000E423B7 /* GoogleService-Info.plist */,
 				EDBFF0B72729CCD800E423B7 /* AppDelegate.swift */,
 				EDBFF0B92729CCD800E423B7 /* SceneDelegate.swift */,
 				EDBFF0BB2729CCD800E423B7 /* iniciarSesionViewController.swift */,
@@ -89,7 +92,7 @@
 				EDBFF0C02729CCDB00E423B7 /* Assets.xcassets */,
 				EDBFF0C22729CCDB00E423B7 /* LaunchScreen.storyboard */,
 				EDBFF0C52729CCDB00E423B7 /* Info.plist */,
-				EDBFF0CB2729D22000E423B7 /* GoogleService-Info.plist */,
+				ED4E8B30272B2C8D00AC6307 /* ChatViewController.swift */,
 			);
 			path = Snapchat;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				EDBFF0BC2729CCD800E423B7 /* iniciarSesionViewController.swift in Sources */,
 				EDBFF0B82729CCD800E423B7 /* AppDelegate.swift in Sources */,
+				ED4E8B31272B2C8D00AC6307 /* ChatViewController.swift in Sources */,
 				EDBFF0BA2729CCD800E423B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
